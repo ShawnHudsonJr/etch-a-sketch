@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    background-color: gray;
+    width: 100%;
+    height: 3rem;
+}
+
+#header button {
+    width: 10rem;
+}
+
+#sketchpad {
+    .background-color: red;
+    display: flex;
+    .align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    margin-left: 10%;
+    height: 800px;
+    width: 800px;
+}
+
+#sketchpad .row {
+    flex: 1;
+}
+
+#sketchpad .column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
