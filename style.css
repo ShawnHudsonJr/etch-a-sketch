@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 #header .buttons {
@@ -7,8 +8,11 @@ body {
     justify-content: center;
     gap: 8px;
     background-color: gray;
-    width: 100%;
+    width: 90%;
     height: 3rem;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #header button {
@@ -16,14 +20,18 @@ body {
 }
 
 #sketchpad {
-    .background-color: red;
     display: flex;
-    .align-items: center;
     flex-wrap: wrap;
+    flex: 1;
     margin-top: 10vh;
-    margin-left: 10%;
-    height: 800px;
-    width: 800px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vw;
+    height: 80vw;
+    width: 80vw;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
 }
 
 #sketchpad .row {
